@@ -2,15 +2,18 @@
 Comparison of machine learning models to predict the victory of a League of Legends game with stadistics of the first 10 minutes.
 
 ## Preparation
-Data clean up was performed and feature selection was made based on the context of the game.
 
-Size of data: 9770 records.
+* Data clean up was performed and feature selection was made based on the context of the game.
 
-Features  `[blueTowersDestroyed, blueTotalMinionsKilled, blueKills]` 
+* Original database: [League of Legends Diamond Ranked Games (10 min)](https://www.kaggle.com/datasets/bobbyscience/league-of-legends-diamond-ranked-games-10-min) with 9879 records.
 
-Target variable: `blueWins`
+* Size of data: 9770 records.
 
-## Implementation
+* Features  `[blueTowersDestroyed, blueTotalMinionsKilled, blueKills]` 
+
+* Target variable: `blueWins`
+
+## Models
 
 | Model | Precision | Confusion matrix | MAE & RMSE[^1] |
 | :---: | :-------: | ---------------- | ---------- |
@@ -28,6 +31,9 @@ Target variable: `blueWins`
 | [Multinomial Naive Bayes](/Naive_Bayes_%26_Decision_Tree_.ipynb)<br/> 80% train - 20% test | 62.08% | [ 33.16%  17.09%<br/>&nbsp; 20.83%  28.92% ] | 0.3792 <br> 0.6158 |
 | [Gaussian Naive Bayes](/Naive_Bayes_%26_Decision_Tree_.ipynb)<br/> 80% train - 20% test | 62.13% | [ 45.75%  4.50%<br/>&nbsp; 33.37%  16.38% ] | 0.3787 <br> 0.6153 |
 | [Decision Tree](/Naive_Bayes_%26_Decision_Tree_.ipynb)<br/> 80% train - 20% test | 62.69% | [ 33.32% 16.94%<br/>&nbsp; 20.37% 29.38% ] | 0.3730 <br> 0.6108 |
+
+## Analysis
+
 
 [^1]:  MAE stand for Mean Absolute Error <br/> RMSE stand for Root Mean Square Error
 	
