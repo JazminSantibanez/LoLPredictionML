@@ -34,6 +34,9 @@ Comparison of machine learning models to predict the victory of a League of Lege
 
 ## Analysis
 
+* Created 1000 new games, based on the studied distributions of each feature.
+* Used the Logistic Regression 1 model for making predictions with the new dataset.
+* Experimented with different value ranges for each variable (low and high) to observe the impact of said stadistic over the result of the game.
 
 [^1]:  MAE stand for Mean Absolute Error <br/> RMSE stand for Root Mean Square Error
 	
