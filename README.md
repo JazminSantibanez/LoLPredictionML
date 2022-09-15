@@ -32,7 +32,7 @@ Comparison of machine learning models to predict the victory of a League of Lege
 | [Gaussian Naive Bayes](/Naive_Bayes_%26_Decision_Tree_.ipynb)<br/> 80% train - 20% test | 62.13% | [ 45.75%  4.50%<br/>&nbsp; 33.37%  16.38% ] | 0.3787 <br> 0.6153 |
 | [Decision Tree](/Naive_Bayes_%26_Decision_Tree_.ipynb)<br/> 80% train - 20% test | 62.69% | [ 33.32% 16.94%<br/>&nbsp; 20.37% 29.38% ] | 0.3730 <br> 0.6108 |
 
-## Analysis
+## [Analysis](/Data_Analysis.ipynb)
 
 * Created 1000 new games, based on the studied distributions of each feature.
 * Used the Logistic Regression 1 model for making predictions with the new dataset.
